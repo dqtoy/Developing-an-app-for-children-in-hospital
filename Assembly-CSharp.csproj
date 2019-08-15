@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{AAC97A0A-383D-4047-957F-195A8452C7D8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_5;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BlockyRabbitJumping\Script\Auto_Rotate.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo_Translate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Obi\Rendering\ObiDistanceFieldRenderer.cs" />
+     <Compile Include="Assets\Obi\Rendering\ObiParticleRenderer.cs" />
+     <Compile Include="Assets\Obi\Rendering\ShadowmapExposer.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\Blinker.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\CharacterControl2D.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\CharacterController\ObiCharacter.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\CharacterController\ObiCharacterController.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ColliderHighlighter.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\CollisionEventHandler.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\CraneController.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\CursorController.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\FirstPersonLauncher.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\GrapplingHook.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ObiActorTeleport.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ObjectDragger.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\ObjectLimit.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\RobotArmController.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\RuntimeRopeGenerator.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\RuntimeRopeGeneratorUse.cs" />
+     <Compile Include="Assets\Obi\Sample Scenes\SampleResources\Scripts\SlowmoToggler.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiActor.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiBone.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiEmitter.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiRope.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiRopeRenderModes\ObiRopeChainRenderMode.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiRopeRenderModes\ObiRopeLineRenderMode.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiRopeRenderModes\ObiRopeMeshRenderMode.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiRopeRenderModes\ObiRopeRenderMode.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiRopeRenderModes\ObiRopeThickRenderMode.cs" />
+     <Compile Include="Assets\Obi\Scripts\Actors\ObiStitcher.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\ChildrenOnly.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\DisplayAs.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\Indent.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\InspectorButtonAttribute.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\MultiDelayed.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\MultiPropertyAttribute.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\MultiRange.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\SerializeProperty.cs" />
+     <Compile Include="Assets\Obi\Scripts\Attributes\VisibleIf.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers2D\ObiBoxShapeTracker2D.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers2D\ObiCapsuleShapeTracker2D.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers2D\ObiCircleShapeTracker2D.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers2D\ObiEdgeShapeTracker2D.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiBoxShapeTracker.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiCapsuleShapeTracker.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiDistanceFieldShapeTracker.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiMeshShapeTracker.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiShapeTracker.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiSphereShapeTracker.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ColliderTrackers\Trackers3D\ObiTerrainShapeTracker.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ObiCollider.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ObiCollider2D.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ObiColliderBase.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ObiCollisionMaterial.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ObiDistanceField.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ObiRigidbody.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ObiRigidbody2D.cs" />
+     <Compile Include="Assets\Obi\Scripts\Collisions\ObiRigidbodyBase.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiAerodynamicConstraintBatch.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiBendConstraintBatch.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiConstraintBatch.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiDistanceConstraintBatch.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiPinConstraintBatch.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiSkinConstraintBatch.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiTetherConstraintBatch.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ConstraintBatches\ObiVolumeConstraintBatch.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ObiAerodynamicConstraints.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ObiBatchedConstraints.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ObiBendingConstraints.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ObiDistanceConstraints.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ObiPinConstraints.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ObiSkinConstraints.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ObiTetherConstraints.cs" />
+     <Compile Include="Assets\Obi\Scripts\Constraints\ObiVolumeConstraints.cs" />
+     <Compile Include="Assets\Obi\Scripts\Coroutines\CoroutineJob.cs" />
+     <Compile Include="Assets\Obi\Scripts\Coroutines\EditorCoroutine.cs" />
+     <Compile Include="Assets\Obi\Scripts\DataStructures\ObiList.cs" />
+     <Compile Include="Assets\Obi\Scripts\DataStructures\ObiParticleCache.cs" />
+     <Compile Include="Assets\Obi\Scripts\DataStructures\ObiRopeSection.cs" />
+     <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterMaterial.cs" />
+     <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterMaterialFluid.cs" />
+     <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterMaterialGranular.cs" />
+     <Compile Include="Assets\Obi\Scripts\Emitter\ObiEmitterShape.cs" />
+     <Compile Include="Assets\Obi\Scripts\Oni.cs" />
+     <Compile Include="Assets\Obi\Scripts\Solver\IObiSolverClient.cs" />
+     <Compile Include="Assets\Obi\Scripts\Solver\ObiAnimatorController.cs" />
+     <Compile Include="Assets\Obi\Scripts\Solver\ObiArbiter.cs" />
+     <Compile Include="Assets\Obi\Scripts\Solver\ObiSolver.cs" />
+     <Compile Include="Assets\Obi\Scripts\Solver\ObiSolverData.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\Forces\ObiAmbientForceZone.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\Forces\ObiExternalForce.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\Forces\ObiSphericalForceZone.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiBezierCurve.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiCatmullRomCurve.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiCurve.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiKinematicVelocities.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiParticleBaker.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiParticleGridDebugger.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiParticleHandle.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiProfiler.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiRopeCursor.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiRopeHelper.cs" />
+     <Compile Include="Assets\Obi\Scripts\Utils\ObiUtils.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\Block.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\Coin.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\CoinSpawner.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\DayCircleOverlay.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\Donate.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\ForAdsIntegration\AdsController.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\Game.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\GameManager.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\HUD.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\LevelGenerator.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\Parallax.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\Player.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\PlayerCamera.cs" />
+     <Compile Include="Assets\REJUMP\Scripts\Tutorial.cs" />
+     <Compile Include="Assets\Scripts\Button_OnClick.cs" />
+     <Compile Include="Assets\Scripts\Camera_Follow.cs" />
+     <Compile Include="Assets\Scripts\Camera_Follow2.cs" />
+     <Compile Include="Assets\Scripts\Camera_Follow2_2.cs" />
+     <Compile Include="Assets\Scripts\Common\ComUtils.cs" />
+     <Compile Include="Assets\Scripts\Data_Manager.cs" />
+     <Compile Include="Assets\Scripts\File_Manager.cs" />
+     <Compile Include="Assets\Scripts\Game_Control2.cs" />
+     <Compile Include="Assets\Scripts\Game_Controller.cs" />
+     <Compile Include="Assets\Scripts\MainMenu1.cs" />
+     <Compile Include="Assets\Scripts\Menu_Platform.cs" />
+     <Compile Include="Assets\Scripts\Platform.cs" />
+     <Compile Include="Assets\Scripts\Platform_Blue.cs" />
+     <Compile Include="Assets\Scripts\Platform_Blue2.cs" />
+     <Compile Include="Assets\Scripts\Platform_Brown.cs" />
+     <Compile Include="Assets\Scripts\Platform_Generator.cs" />
+     <Compile Include="Assets\Scripts\Platform_Generator2.cs" />
+     <Compile Include="Assets\Scripts\Platform_White.cs" />
+     <Compile Include="Assets\Scripts\Platform2.cs" />
+     <Compile Include="Assets\Scripts\Player_Controller.cs" />
+     <Compile Include="Assets\Scripts\Player_Controller_2.cs" />
+     <Compile Include="Assets\Scripts\Player_Controller2.cs" />
+     <Compile Include="Assets\Scripts\Propeller.cs" />
+     <Compile Include="Assets\Scripts\Propeller2.cs" />
+     <Compile Include="Assets\Scripts\Share_Score.cs" />
+     <Compile Include="Assets\Scripts\Submit_Score.cs" />
+     <Compile Include="Assets\Scripts\Tramppline.cs" />
+     <Compile Include="Assets\Scripts\Tramppline2.cs" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@2x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@4x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@2x\import_spine.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@4x\import_unity.xml" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\JFekb\Victory pack\Resource\Particle Alpha Blend.shader" />
+     <None Include="Assets\Obi\Editor\Resources\EditorParticle.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@1x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@2x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@2x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@2x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@1x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@1x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@1x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@4x\import_spine.txt" />
+     <None Include="Assets\Obi\Editor\Resources\DistanceFieldPreview.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@2x\import_unity.xml" />
+     <None Include="Assets\Obi\Editor\Resources\FlatSurfaceShader.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@4x\log.txt" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\ParticleShader.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@2x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@4x\import_unity.xml" />
+     <None Include="Assets\Obi\Editor\Resources\EditorLineShader.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@1x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@4x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@2x\import_spine.txt" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\StandardBackfaces.shader" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\ObiParticles.cginc" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@1x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@4x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@4x\import_spine.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@2x\import_spine.txt" />
+     <None Include="Assets\New_Character\2d素材说明.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@1x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@1x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@4x\log.txt" />
+     <None Include="Assets\REJUMP\Shaders\ParalaxSprite.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@4x\import_unity.xml" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@1x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@2x\import_unity.xml" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\SimpleParticleShader.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@1x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@2x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@2x\log.txt" />
+     <None Include="Assets\Obi\CHANGELOG_rope.txt" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\Obi\Plugins\libOni.bundle\Contents\Resources\CMakeLists.txt" />
+     <None Include="Assets\Obi\Editor\Resources\TopologyBorders.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@2x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@4x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@2x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@1x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@1x\import_unity.xml" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\LitParticles.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@4x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@4x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@2x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@1x\import_unity.xml" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\StandardVertexColors.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@1x\import_unity.xml" />
+     <None Include="Assets\Obi\Editor\Resources\EditorParticleRadius.shader" />
+     <None Include="Assets\Obi\Editor\Resources\PropertyGradientMaterial.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_2@2x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@1x\import_spine.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@1x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\day_1@4x\log.txt" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\DistanceFieldSlice.shader" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@4x\import_unity.xml" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\UnityStandardCoreForwardSimpleBackfaces.cginc" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@2x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_1@2x\log.txt" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\UnityStandardCoreBackfaces.cginc" />
+     <None Include="Assets\Obi\Resources\ObiMaterials\UnityStandardCoreForwardBackfaces.cginc" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@1x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_2@4x\import_spine.txt" />
+     <None Include="Assets\Epic Toon FX\ETFX Readme.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@1x\import_unity.xml" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\sunset_1@4x\log.txt" />
+     <None Include="Assets\Foriero Store\Projects\Backgrounds\backgrounds_vol_1\sprites\night_2@4x\import_spine.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Unity Project/2017.1.5f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/Unity Project/Doodle-Jump-Unity3D-Game-master/Assets/Plugins/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
